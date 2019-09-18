@@ -1,0 +1,3 @@
+1. Start vcem.exe
+2. Click add, locate the exam file with .vce extension in the same folder where you started vcem program
+3. Start the test
