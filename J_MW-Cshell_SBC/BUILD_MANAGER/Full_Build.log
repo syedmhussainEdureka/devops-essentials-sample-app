@@ -1,0 +1,898 @@
+Calling SvnExport_SBC.bat - tags 10_1000F000_6_8_18_AM 1.3.20_src N N N N
+Version:0.1 SvnExport_SBC.bat
+"Processing Started @"
+Fri 02/01/2019 10:45:18.40
+ 
+Inputs verified: tags 10_1000F000_6_8_18_AM 1.3.20_src N N N N
+
+SVN repository Initialized 
+
+Calling Phase-1
+
+
+Processing Phase 1 :: ../10_1000F000_6_8_18_AM   
+
+
+Created Successfully: "E:\DAIRCM\BUILDS\SBC_CSCI\J_MW_Cshell\10_1000F000_6_8_18_AM"
+Created Successfully: "E:\DAIRCM\BUILDS\SBC_CSCI\J_MW_Cshell\10_1000F000_6_8_18_AM\WORKSPACES"
+
+Created Successfully: "E:\DAIRCM\BUILDS\SBC_CSCI\J_MW_Cshell\10_1000F000_6_8_18_AM\workspace_ASP"
+
+"Completed Processing - Phase 1." 
+
+Calling Phase-2
+
+
+
+Imported ...\VxWorks-6.9
+
+
+Imported ..\WindRiver Components
+
+"Completed Processing - Phase 2."
+
+Calling Phase-3
+
+
+Imported ....\Tracker139
+
+Imported ....\workspace3
+
+"Completed Processing - Phase 3" 
+ 
+** Completed Processing as requested - **
+Fri 02/01/2019 10:54:50.69
+Calling Build_TRU.bat tags 10_1000F000_6_8_18_AM 1.3.20_src B
+ 
+Inputs verified: tags 10_1000F000_6_8_18_AM 1.3.20_src B
+"Processing Started @"
+Fri 02/01/2019 10:54:50.71
+"**************** Processing  ****************"
+Starting Build : Call C:\windriver\wrenv.exe -p vxworks-6.9 C:\WindRiver\workbench-3.3\x86-win32\bin\wrws_update.bat -data E:\DAIRCM\BUILDS\SBC_CSCI\J_MW_Cshell\10_1000F000_6_8_18_AM\workspace_ASP -m -b -i
+[10:54:56.961] Started Workspace Update Application, logging to "E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/.metadata/.log".
+[10:54:56.961] Waiting for Jobs to Finish
+[10:55:00.680] Refreshing 'AspControl'
+[10:55:00.680] Finished refreshing 'AspControl'  (0 sec)
+[10:55:00.680] Refreshing 'BIT_Menu'
+[10:55:00.680] Finished refreshing 'BIT_Menu'  (0 sec)
+[10:55:00.680] Refreshing 'ControlInterface'
+[10:55:00.758] Finished refreshing 'ControlInterface'  (0 sec)
+[10:55:00.758] Refreshing 'DrsSensor'
+[10:55:00.773] Finished refreshing 'DrsSensor'  (0 sec)
+[10:55:00.773] Refreshing 'FPGA_Driver'
+[10:55:00.789] Finished refreshing 'FPGA_Driver'  (0 sec)
+[10:55:00.789] Refreshing 'RCBasic'
+[10:55:00.805] Finished refreshing 'RCBasic'  (0 sec)
+[10:55:00.805] Refreshing 'RCNetwork'
+[10:55:00.820] Finished refreshing 'RCNetwork'  (0 sec)
+[10:55:00.820] Refreshing 'RCc'
+[10:55:00.836] Finished refreshing 'RCc'  (0 sec)
+[10:55:00.836] Refreshing 'RemoteSystemsTempFiles'
+[10:55:00.851] Finished refreshing 'RemoteSystemsTempFiles'  (0 sec)
+[10:55:00.851] Refreshing 'Reprogrammer'
+[10:55:00.867] Finished refreshing 'Reprogrammer'  (0 sec)
+[10:55:00.867] Refreshing 'T2VxUtility'
+[10:55:00.883] Finished refreshing 'T2VxUtility'  (0 sec)
+[10:55:00.883] Refreshing 'T3AppTracker'
+[10:55:00.898] Finished refreshing 'T3AppTracker'  (0 sec)
+[10:55:00.898] Refreshing 'T3FileIO'
+[10:55:00.914] Finished refreshing 'T3FileIO'  (0 sec)
+[10:55:00.914] Refreshing 'T3Geolocation'
+[10:55:00.930] Finished refreshing 'T3Geolocation'  (0 sec)
+[10:55:00.930] Refreshing 'T3Geometry'
+[10:55:00.945] Finished refreshing 'T3Geometry'  (0 sec)
+[10:55:00.945] Refreshing 'UDFDecoder'
+[10:55:00.961] Finished refreshing 'UDFDecoder'  (0 sec)
+[10:55:00.961] Refreshing 'UserDefinedFiles'
+[10:55:00.961] Finished refreshing 'UserDefinedFiles'  (0 sec)
+[10:55:00.961] Refreshing 'XPedite7501_prj'
+[10:55:01.070] Finished refreshing 'XPedite7501_prj'  (0 sec)
+[10:55:01.070] Finished Workspace refresh.
+[10:55:01.070] Generating Makefiles....
+Generating Makefiles of:/XPedite7501_prj
+[10:55:04.523] Refreshing search index ...
+[10:55:05.023] Finished updating index  (0 sec)
+[10:55:05.023] Building projects...
+
+
+************************************************************
+Build Started in Project 'ControlInterface':   2019-02-01 10:55:05
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/ControlInterface/PENTIUM4diab_SMP
+building ControlInterface_partialImage/Debug/Objects/ControlInterface/source/SBCCommon.o
+building ControlInterface_partialImage/Debug/Objects/ControlInterface/source/SBCControlTask.o
+building ControlInterface_partialImage/Debug/Objects/ControlInterface/source/SBCReportTask.o
+building ControlInterface_partialImage/Debug/Objects/ControlInterface/source/SBCzeroize.o
+building ControlInterface_partialImage/Debug/ControlInterface_partialImage.o
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/ControlInterface/PENTIUM4diab_SMP
+Build Finished in Project 'ControlInterface':   2019-02-01 10:55:10   (Elapsed Time: 00:06)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'DrsSensor':   2019-02-01 10:55:10
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/DrsSensor/PENTIUM4diab_SMP
+building DrsSensor_partialImage/Debug/Objects/DrsSensor/source/DrsAcid.o
+building DrsSensor_partialImage/Debug/Objects/DrsSensor/source/DrsTracker.o
+building DrsSensor_partialImage/Debug/Objects/DrsSensor/source/JamPower.o
+building DrsSensor_partialImage/Debug/Objects/DrsSensor/source/LaserHardware.o
+building DrsSensor_partialImage/Debug/Objects/DrsSensor/source/MyLogger.o
+building DrsSensor_partialImage/Debug/DrsSensor_partialImage.o
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/DrsSensor/PENTIUM4diab_SMP
+Build Finished in Project 'DrsSensor':   2019-02-01 10:55:17   (Elapsed Time: 00:06)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'FPGA_Driver':   2019-02-01 10:55:17
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/FPGA_Driver/PENTIUM4diab_SMP
+building FPGA_Driver_partialImage/Debug/Objects/FPGA_Driver/source/FPGA_Reg.o
+building FPGA_Driver_partialImage/Debug/FPGA_Driver_partialImage.o
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/FPGA_Driver/PENTIUM4diab_SMP
+Build Finished in Project 'FPGA_Driver':   2019-02-01 10:55:20   (Elapsed Time: 00:03)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'RCBasic':   2019-02-01 10:55:20
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/RCBasic/PENTIUM4diab_SMP
+building RCBasic_partialImage/Debug/Objects/RCBasic/source/RCGeneralTypes.o
+building RCBasic_partialImage/Debug/Objects/RCBasic/source/RCString.o
+building RCBasic_partialImage/Debug/Objects/RCBasic/source/RCStringVector.o
+building RCBasic_partialImage/Debug/Objects/RCBasic/source/RCTypes.o
+building RCBasic_partialImage/Debug/Objects/RCBasic/source/RCVectorTypes.o
+building RCBasic_partialImage/Debug/RCBasic_partialImage.o
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/RCBasic/PENTIUM4diab_SMP
+Build Finished in Project 'RCBasic':   2019-02-01 10:55:27   (Elapsed Time: 00:07)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'RCNetwork':   2019-02-01 10:55:27
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/RCNetwork/PENTIUM4diab_SMP
+building RCNetwork_partialImage/Debug/Objects/RCNetwork/source/RCSocket.o
+building RCNetwork_partialImage/Debug/Objects/RCNetwork/source/RCSocketAddress.o
+building RCNetwork_partialImage/Debug/Objects/RCNetwork/source/RCSocketCommander.o
+building RCNetwork_partialImage/Debug/Objects/RCNetwork/source/RCSocketIO.o
+building RCNetwork_partialImage/Debug/Objects/RCNetwork/source/RCUDPSocket.o
+building RCNetwork_partialImage/Debug/Objects/RCNetwork/source/VxSocketCommander.o
+building RCNetwork_partialImage/Debug/RCNetwork_partialImage.o
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/RCNetwork/PENTIUM4diab_SMP
+Build Finished in Project 'RCNetwork':   2019-02-01 10:55:34   (Elapsed Time: 00:07)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'RCc':   2019-02-01 10:55:34
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/RCc/PENTIUM4diab_SMP
+building RCc_partialImage/Debug/Objects/RCc/Math/RCComplexMath.o
+building RCc_partialImage/Debug/Objects/RCc/Math/RCLinearAlgebra.o
+building RCc_partialImage/Debug/Objects/RCc/Math/RCVectorAlgebra.o
+building RCc_partialImage/Debug/Objects/RCc/Math/RCVectorMath.o
+building RCc_partialImage/Debug/Objects/RCc/Model/RCLBClassifier.o
+building RCc_partialImage/Debug/Objects/RCc/Model/RCLMSearch.o
+building RCc_partialImage/Debug/Objects/RCc/Model/RCPolynomial.o
+building RCc_partialImage/Debug/Objects/RCc/Model/RCPrincipalComp.o
+building RCc_partialImage/Debug/Objects/RCc/Model/RCTrainLBC.o
+building RCc_partialImage/Debug/RCc_partialImage.o
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/RCc/PENTIUM4diab_SMP
+Build Finished in Project 'RCc':   2019-02-01 10:55:44   (Elapsed Time: 00:10)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'Reprogrammer':   2019-02-01 10:55:44
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/Reprogrammer/PENTIUM4diab_SMP
+-----
+svn revert ../source/SBC_Version.txt
+svn: E155010: The node 'E:\DAIRCM\BUILDS\SBC_CSCI\J_MW_Cshell\10_1000F000_6_8_18_AM\T2\workspace3\Reprogrammer' was not found.
+C:\WindRiver\utilities-1.0\x86-win32\bin\make.exe: [pre_build] Error 1 (ignored)
+#define VER (0x09401023)
+-----
+building Reprogrammer_partialImage/Debug/Objects/Reprogrammer/source/CPLDReprogram.o
+building Reprogrammer_partialImage/Debug/Objects/Reprogrammer/source/FileIntegrity.o
+building Reprogrammer_partialImage/Debug/Objects/Reprogrammer/source/FpgaReprogrammer.o
+building Reprogrammer_partialImage/Debug/Objects/Reprogrammer/source/LaserReprogram.o
+building Reprogrammer_partialImage/Debug/Objects/Reprogrammer/source/OMAPReprogram.o
+building Reprogrammer_partialImage/Debug/Objects/Reprogrammer/source/ReprogramCommon.o
+building Reprogrammer_partialImage/Debug/Objects/Reprogrammer/source/SBCBasicComms.o
+building Reprogrammer_partialImage/Debug/Objects/Reprogrammer/source/SensorReprogram.o
+building Reprogrammer_partialImage/Debug/Reprogrammer_partialImage.o
+building Reprogrammer/Debug/Objects/Reprogrammer/source/CPLDReprogram.o
+building Reprogrammer/Debug/Objects/Reprogrammer/source/FileIntegrity.o
+building Reprogrammer/Debug/Objects/Reprogrammer/source/FpgaReprogrammer.o
+building Reprogrammer/Debug/Objects/Reprogrammer/source/LaserReprogram.o
+building Reprogrammer/Debug/Objects/Reprogrammer/source/OMAPReprogram.o
+building Reprogrammer/Debug/Objects/Reprogrammer/source/ReprogramCommon.o
+building Reprogrammer/Debug/Objects/Reprogrammer/source/SBCBasicComms.o
+building Reprogrammer/Debug/Objects/Reprogrammer/source/SensorReprogram.o
+make[1]: `FPGA_Driver_partialImage/Debug/FPGA_Driver_partialImage.o' is up to date.
+building Reprogrammer/Debug/Reprogrammer.out
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/Reprogrammer/PENTIUM4diab_SMP
+-----
+cp "E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/Reprogrammer/PENTIUM4diab_SMP/Reprogrammer/Debug/Reprogrammer.out" "x:/Reprogrammer.out"
+cp: cannot create regular file `x:\\Reprogrammer.out': No such file or directory
+C:\WindRiver\utilities-1.0\x86-win32\bin\make.exe: [post_build] Error 1 (ignored)
+Command:  Reprogrammer version:  #define VER (0x09401023)
+-----
+Build Finished in Project 'Reprogrammer':   2019-02-01 10:56:03   (Elapsed Time: 00:19)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'T2VxUtility':   2019-02-01 10:56:03
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/T2VxUtility/PENTIUM4diab_SMP
+building T2VxUtility_partialImage/Debug/Objects/T2VxUtility/source/VxDosFsUtilities.o
+building T2VxUtility_partialImage/Debug/Objects/T2VxUtility/source/VxFlashDisk.o
+building T2VxUtility_partialImage/Debug/Objects/T2VxUtility/source/VxIntelTimeBase.o
+building T2VxUtility_partialImage/Debug/Objects/T2VxUtility/source/VxModule.o
+building T2VxUtility_partialImage/Debug/Objects/T2VxUtility/source/VxSemaphore.o
+building T2VxUtility_partialImage/Debug/Objects/T2VxUtility/source/VxStringFile.o
+building T2VxUtility_partialImage/Debug/Objects/T2VxUtility/source/VxTaskManager.o
+building T2VxUtility_partialImage/Debug/T2VxUtility_partialImage.o
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/T2VxUtility/PENTIUM4diab_SMP
+Build Finished in Project 'T2VxUtility':   2019-02-01 10:56:10   (Elapsed Time: 00:07)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'T3AppTracker':   2019-02-01 10:56:10
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/T3AppTracker/PENTIUM4diab_SMP
+-----
+svn revert ../source/SBC_Version.txt
+svn: E155010: The node 'E:\DAIRCM\BUILDS\SBC_CSCI\J_MW_Cshell\10_1000F000_6_8_18_AM\T2\workspace3\T3AppTracker' was not found.
+C:\WindRiver\utilities-1.0\x86-win32\bin\make.exe: [pre_build] Error 1 (ignored)
+#define VER (0x09401031)
+-----
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/OLFTProcessing.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3AppTracker.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3AppTracker_WatchDog.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3AutoAlignment.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3Avionics.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3BaringaTracker.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3ControlTask.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3DAUInterface.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3DateTime.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3Integrity.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3LWThreatTask.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3NavTask.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3TrackerInterface.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3TrackerMemory.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3TrackerTask.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3Tracker_IBIT.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/T3Tracker_SBIT.o
+building T3AppTracker_partialImage/Debug/Objects/T3AppTracker/source/trackfile.o
+building T3AppTracker_partialImage/Debug/T3AppTracker_partialImage.o
+make[1]: `RCNetwork_partialImage/Debug/RCNetwork_partialImage.o' is up to date.
+make[1]: `T2VxUtility_partialImage/Debug/T2VxUtility_partialImage.o' is up to date.
+building T3FileIO_partialImage/Debug/Objects/T3FileIO/source/D2_Time_Calculation.o
+building T3FileIO_partialImage/Debug/Objects/T3FileIO/source/SensorConf.o
+building T3FileIO_partialImage/Debug/Objects/T3FileIO/source/T2INSHeader.o
+building T3FileIO_partialImage/Debug/Objects/T3FileIO/source/T3ExceedFile.o
+building T3FileIO_partialImage/Debug/Objects/T3FileIO/source/T3InfoLog.o
+building T3FileIO_partialImage/Debug/Objects/T3FileIO/source/T3LowLatencyFile.o
+building T3FileIO_partialImage/Debug/Objects/T3FileIO/source/T3MaskBoundaryFile.o
+building T3FileIO_partialImage/Debug/Objects/T3FileIO/source/T3SensorHeader.o
+building T3FileIO_partialImage/Debug/Objects/T3FileIO/source/T3TrackFile.o
+building T3FileIO_partialImage/Debug/Objects/T3FileIO/source/senbpfile.o
+building T3FileIO_partialImage/Debug/T3FileIO_partialImage.o
+make[1]: `RCBasic_partialImage/Debug/RCBasic_partialImage.o' is up to date.
+make[1]: `RCc_partialImage/Debug/RCc_partialImage.o' is up to date.
+building T3Geometry_partialImage/Debug/Objects/T3Geometry/source/T2FrameRotation.o
+building T3Geometry_partialImage/Debug/Objects/T3Geometry/source/T2PlatformAlign.o
+building T3Geometry_partialImage/Debug/Objects/T3Geometry/source/T2PlatformGeometry.o
+building T3Geometry_partialImage/Debug/Objects/T3Geometry/source/T2PlatformGeometryComp.o
+building T3Geometry_partialImage/Debug/Objects/T3Geometry/source/T2Quaternion.o
+building T3Geometry_partialImage/Debug/Objects/T3Geometry/source/T2VectorMatrix.o
+building T3Geometry_partialImage/Debug/T3Geometry_partialImage.o
+building T3Geolocation_partialImage/Debug/Objects/T3Geolocation/source/T2DTEDData.o
+building T3Geolocation_partialImage/Debug/Objects/T3Geolocation/source/T2Geolocation.o
+building T3Geolocation_partialImage/Debug/Objects/T3Geolocation/source/T3AdaSupport.o
+building T3Geolocation_partialImage/Debug/Objects/T3Geolocation/source/T3DecompressTask.o
+building T3Geolocation_partialImage/Debug/Objects/T3Geolocation/source/T3MinizDecompression.o
+building T3Geolocation_partialImage/Debug/T3Geolocation_partialImage.o
+make[1]: `DrsSensor_partialImage/Debug/DrsSensor_partialImage.o' is up to date.
+make[1]: `ControlInterface_partialImage/Debug/ControlInterface_partialImage.o' is up to date.
+building UserDefinedFiles_partialImage/Debug/Objects/UserDefinedFiles/source/UserDefinedFileMgr.o
+building UserDefinedFiles_partialImage/Debug/UserDefinedFiles_partialImage.o
+make[1]: `FPGA_Driver_partialImage/Debug/FPGA_Driver_partialImage.o' is up to date.
+building T3AppTracker/Debug/T3AppTracker.out
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/T3AppTracker/PENTIUM4diab_SMP
+-----
+cp "E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/T3AppTracker/PENTIUM4diab_SMP/T3AppTracker/Debug/T3AppTracker.out" "x:/T3AppTracker.out"
+cp: cannot create regular file `x:\\T3AppTracker.out': No such file or directory
+C:\WindRiver\utilities-1.0\x86-win32\bin\make.exe: [post_build] Error 1 (ignored)
+Command:  T3AppTracker version:  #define VER (0x09401031)
+-----
+Build Finished in Project 'T3AppTracker':   2019-02-01 10:56:53   (Elapsed Time: 00:43)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'T3FileIO':   2019-02-01 10:56:53
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/T3FileIO/PENTIUM4diab_SMP
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/T3FileIO/PENTIUM4diab_SMP
+Build Finished in Project 'T3FileIO':   2019-02-01 10:56:54   (Elapsed Time: 00:01)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'T3Geolocation':   2019-02-01 10:56:54
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/T3Geolocation/PENTIUM4diab_SMP
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/T3Geolocation/PENTIUM4diab_SMP
+Build Finished in Project 'T3Geolocation':   2019-02-01 10:56:54   (Elapsed Time: 00:01)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'T3Geometry':   2019-02-01 10:56:55
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/T3Geometry/PENTIUM4diab_SMP
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/T3Geometry/PENTIUM4diab_SMP
+Build Finished in Project 'T3Geometry':   2019-02-01 10:56:55   (Elapsed Time: 00:01)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'UDFDecoder':   2019-02-01 10:56:55
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/UDFDecoder/PENTIUM4diab_SMP
+-----
+svn revert ../source/SBC_Version.txt
+svn: E155010: The node 'E:\DAIRCM\BUILDS\SBC_CSCI\J_MW_Cshell\10_1000F000_6_8_18_AM\T2\workspace3\UDFDecoder' was not found.
+C:\WindRiver\utilities-1.0\x86-win32\bin\make.exe: [pre_build] Error 1 (ignored)
+#define VER (0x09401023)
+-----
+building UDFDecoder_partialImage/Debug/Objects/UDFDecoder/source/Decoder.o
+building UDFDecoder_partialImage/Debug/UDFDecoder_partialImage.o
+building UDFDecoder/Debug/Objects/UDFDecoder/source/Decoder.o
+building UDFDecoder/Debug/UDFDecoder.out
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/UDFDecoder/PENTIUM4diab_SMP
+-----
+cp "E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/UDFDecoder/PENTIUM4diab_SMP/UDFDecoder/Debug/UDFDecoder.out" "x:/UDFDecoder.out"
+cp: cannot create regular file `x:\\UDFDecoder.out': No such file or directory
+C:\WindRiver\utilities-1.0\x86-win32\bin\make.exe: [post_build] Error 1 (ignored)
+Command:  UDFDecoder version:  #define VER (0x09401023)
+-----
+Build Finished in Project 'UDFDecoder':   2019-02-01 10:57:02   (Elapsed Time: 00:07)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'UserDefinedFiles':   2019-02-01 10:57:02
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make --no-print-directory BUILD_SPEC=PENTIUM4diab_SMP DEBUG_MODE=1
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/UserDefinedFiles/PENTIUM4diab_SMP
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/T2/workspace3/UserDefinedFiles/PENTIUM4diab_SMP
+Build Finished in Project 'UserDefinedFiles':   2019-02-01 10:57:03   (Elapsed Time: 00:00)
+************************************************************
+
+
+************************************************************
+Build Started in Project 'XPedite7501_prj':   2019-02-01 10:57:05
+Generation of makefiles started.
+Generation of makefiles finished (Elapsed Time: 00:00).
+Platform: Wind River VxWorks 6.9
+Command: make BUILD_SPEC=default DEBUG_MODE=0
+Working Directory: E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/XPedite7501_prj
+Recursive make: Changing to Directory 'E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/AspControl/NEHALEMgnu_SMP'
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/AspControl/NEHALEMgnu_SMP
+Recursive make: Changing to Directory 'E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/BIT_Menu/NEHALEMgnu_SMP'
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/BIT_Menu/NEHALEMgnu_SMP
+-----
+svn revert ASP_Version.txt
+Reverted 'ASP_Version.txt'
+svn: E155009: Failed to run the WC DB work queue associated with 'E:\DAIRCM\BUILDS\SBC_CSCI\J_MW_Cshell\10_1000F000_6_8_18_AM\workspace_ASP\XPedite7501_prj\ASP_Version.txt', work item 52 (file-install XPedite7501_prj/ASP_Version.txt 1 0 1 1)
+svn: E720003: The system cannot find the path specified.  
+C:\WindRiver\utilities-1.0\x86-win32\bin\make.exe: [pre_build] Error 1 (ignored)
+#define VER (0x09307003)
+-----
+building default vxWorks image of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/XPedite7501_prj
+make.exe[1]: Entering directory `E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/XPedite7501_prj/default'
+make.exe[2]: Entering directory `C:/WindRiver/components/ip_net2-6.9'
+C:/WindRiver/utilities-1.0/x86-win32/bin/make.exe -C ipcom TOOL=gnu CPU=NEHALEM util_ipdef
+make.exe[3]: Entering directory `C:/WindRiver/components/ip_net2-6.9/ipcom'
+make.exe[3]: Leaving directory `C:/WindRiver/components/ip_net2-6.9/ipcom'
+make.exe[2]: Leaving directory `C:/WindRiver/components/ip_net2-6.9'
+ccpentium -c  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -xassembler-with-cpp -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -MD -D_WRS_VX_SMP    -fvolatile  C:/WindRiver/vxworks-6.9/target/config/XPedite7501/sysALib.s -o sysALib.o
+ccpentium -c  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -Wall  -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss -Wall -Wunused -MD -D_WRS_VX_SMP    -fvolatile  C:/WindRiver/vxworks-6.9/target/config/XPedite7501/gei825xxVxbEnd.c -o gei825xxVxbEnd.o
+ccpentium -c  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -Wall  -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss -Wall -Wunused -MD -D_WRS_VX_SMP    -fvolatile  C:/WindRiver/vxworks-6.9/target/config/XPedite7501/ibexI2cDrv.c -o ibexI2cDrv.o
+ccpentium -c  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -Wall  -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss -Wall -Wunused -MD -D_WRS_VX_SMP    -fvolatile  C:/WindRiver/vxworks-6.9/target/config/XPedite7501/iTcoWdt.c -o iTcoWdt.o
+ccpentium -c  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -Wall  -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss -Wall -Wunused -MD -D_WRS_VX_SMP    -fvolatile  C:/WindRiver/vxworks-6.9/target/config/XPedite7501/sysLib.c -o sysLib.o
+ccpentium -c  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -Wall  -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss -Wall -Wunused -MD -D_WRS_VX_SMP    -fvolatile  C:/WindRiver/vxworks-6.9/target/config/XPedite7501/vxbMc146818Rtc.c -o vxbMc146818Rtc.o
+rm -f usrAppInit.o
+ccpentium  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -Wall  -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss -Wall -Wunused -MD -D_WRS_VX_SMP    -c ../usrAppInit.c
+rm -f usrRtpAppInit.o
+ccpentium  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -Wall  -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss -Wall -Wunused -MD -D_WRS_VX_SMP    -c ../usrRtpAppInit.c
+ccpentium -c  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -Wall  -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss -Wall -Wunused -MD -D_WRS_VX_SMP    -fvolatile  ../prjConfig.c -o prjConfig.o
+In file included from ../prjConfig.c:335:
+C:/WindRiver/vxworks-6.9/target/config/comps/src/usrShell.c: In function 'usrShell':
+C:/WindRiver/vxworks-6.9/target/config/comps/src/usrShell.c:135: warning: assignment from incompatible pointer type
+C:/WindRiver/vxworks-6.9/target/config/comps/src/usrShell.c:136: warning: assignment from incompatible pointer type
+ccpentium -c  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -Wall  -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss -Wall -Wunused -MD -D_WRS_VX_SMP    -fvolatile  ../linkSyms.c -o linkSyms.o
+rm -f ../prjObjs.lst
+Generating ../prjObjs.lst...
+ccpentium  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -Wall  -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss -Wall -Wunused -MD -D_WRS_VX_SMP    -c C:/WindRiver/vxworks-6.9/target/config/comps/src/usrEntry.c
+ccpentium  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -Wall  -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss -Wall -Wunused -MD -D_WRS_VX_SMP    -c  C:/WindRiver/vxworks-6.9/target/config/comps/src/version.c
+rm -f E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/XPedite7501_prj/prjExtraModules.lst
+ccpentium -r -nostdlib -Wl,-X -Wl,@../prjObjs.lst -Wl,@E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/XPedite7501_prj/compObjs.lst @E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/XPedite7501_prj/prjExtraModules.lst \
+	version.o -Wl,--start-group \
+	-LC:/WindRiver/vxworks-6.9/target/lib_smp/pentium/NEHALEM/gnu_standard -LC:/WindRiver/vxworks-6.9/target/lib_smp/pentium/NEHALEM/gnu -LC:/WindRiver/vxworks-6.9/target/lib_smp/pentium/NEHALEM/common -LE:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/obj/vxworks-6.9/krnl/lib_smp/pentium/NEHALEM/gnu -LE:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/obj/vxworks-6.9/krnl/lib_smp/pentium/NEHALEM/common -LC:/WindRiver/components/obj/vxworks-6.9/krnl/lib_smp/pentium/NEHALEM/gnu -LC:/WindRiver/components/obj/vxworks-6.9/krnl/lib_smp/pentium/NEHALEM/common     -lstl -lcplus -lvxTestV2 -laim -lanalysistest -larch -lasp -lboot -lc_wr -lcommoncc -ldcc -ldebug -ldevice -ldrv -ldsi -lerfLib -lfp -lfsim -lftl -lgcc -lhwdb -licc -lipappl -lipcom -lipcom_vxworks -lipdhcpr -lipdhcps -lipmcrypto -lipnet -lipnet_krn -lipppp -liprip -lipsntp -liptcp -lmultios_ipc -los -lpxtrace -lrpc -lsmpdemo -lssi -lstacktrace -ltcfagent -lusb -lusb2 -lvnode -lvxcompat -lvxcoreip -lvxmux -lwdb -lwind -lwindview -lwrload -lxbd -lrqdef -lspl -Wl,--end-group  -o partialImage.o 
+nmpentium partialImage.o @../prjObjs.lst | tclsh C:/WindRiver/vxworks-6.9/host/resource/hutils/tcl/munch.tcl -c pentium  -vars build_vars_list -tags C:/WindRiver/vxworks-6.9/target/lib_smp/tags/pentium/NEHALEM/common/kernel.tags -oscb_gen > ctdt.c
+ccpentium -c -fdollars-in-identifiers  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -Wall  -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss -Wall -Wunused -MD  ctdt.c -o ctdt.o
+ccpentium  -march=core2 -nostdlib -fno-builtin -fno-defer-pop -fno-implicit-fp -ansi -fno-zero-initialized-in-bss  -g -O2 -fvolatile -Wall  -I.. -IC:/WindRiver/vxworks-6.9/target/config/XPedite7501  -IC:/WindRiver/vxworks-6.9/target/h  -IC:/WindRiver/vxworks-6.9/target/h/hwif/fw -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi/acpica-unix-20110316/include -I. -IC:/WindRiver/vxworks-6.9/target/src/hwif/fw/acpi -IC:/WindRiver/components/tcf_agent-0.3/agent -IC:/WindRiver/components/stacktrace-1.0/include -IC:/WindRiver/components/cafe-0.1/hpc/include -IC:/WindRiver/components/cafe-0.1/cafe/include -IC:/WindRiver/components/cafe-0.1/vxworks/include -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/src -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/src -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/src -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/src -IC:/WindRiver/components/tcf_agent-0.3/osconfig/vxworks/h -IC:/WindRiver/components/stacktrace-1.0/osconfig/vxworks/h -IC:/WindRiver/components/ip_net2-6.9/osconfig/vxworks/h -IC:/WindRiver/components/cafe-0.1/osconfig/vxworks/h -IC:/WindRiver/vxworks-6.9/target/src/hwif -IC:/WindRiver/vxworks-6.9/target/src/hwif/h @./ipcom_ipdomain -I. -IC:/WindRiver/vxworks-6.9/target/h/wrn/coreip -IC:/WindRiver/vxworks-6.9/target/src/config -IC:/WindRiver/vxworks-6.9/target/config/comps/src -IC:/WindRiver/vxworks-6.9/target/src/drv -IC:/WindRiver/vxworks-6.9/target/src/hwif/h -DCPU=_VX_NEHALEM -DTOOL_FAMILY=gnu -DTOOL=gnu -D_WRS_KERNEL  -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss  -D_WRS_VX_SMP    -D_VSB_CONFIG_FILE=\"C:/WindRiver/vxworks-6.9/target/lib_smp/h/config/vsbConfig.h\"  -IC:/WindRiver/vxworks-6.9/target/lib_smp/h/pentium/NEHALEM/common -DPRJ_BUILD -DXPEDITE7501 -DIP_PORT_VXWORKS=69 -DINET  -fno-zero-initialized-in-bss -Wall -Wunused -MD -c C:/WindRiver/vxworks-6.9/target/config/comps/src/dataSegPad.c
+ldpentium -X -N       -e sysInit -Ttext 00408000 \
+	dataSegPad.o romfs_image_prj.o @../prjObjs.lst @E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/XPedite7501_prj/compObjs.lst @E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/XPedite7501_prj/prjExtraModules.lst \
+	version.o usrEntry.o --start-group \
+	-LC:/WindRiver/vxworks-6.9/target/lib_smp/pentium/NEHALEM/gnu_standard -LC:/WindRiver/vxworks-6.9/target/lib_smp/pentium/NEHALEM/gnu -LC:/WindRiver/vxworks-6.9/target/lib_smp/pentium/NEHALEM/common -LE:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/obj/vxworks-6.9/krnl/lib_smp/pentium/NEHALEM/gnu -LE:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/obj/vxworks-6.9/krnl/lib_smp/pentium/NEHALEM/common -LC:/WindRiver/components/obj/vxworks-6.9/krnl/lib_smp/pentium/NEHALEM/gnu -LC:/WindRiver/components/obj/vxworks-6.9/krnl/lib_smp/pentium/NEHALEM/common     -lstl -lcplus -lvxTestV2 -laim -lanalysistest -larch -lasp -lboot -lc_wr -lcommoncc -ldcc -ldebug -ldevice -ldrv -ldsi -lerfLib -lfp -lfsim -lftl -lgcc -lhwdb -licc -lipappl -lipcom -lipcom_vxworks -lipdhcpr -lipdhcps -lipmcrypto -lipnet -lipnet_krn -lipppp -liprip -lipsntp -liptcp -lmultios_ipc -los -lpxtrace -lrpc -lsmpdemo -lssi -lstacktrace -ltcfagent -lusb -lusb2 -lvnode -lvxcompat -lvxcoreip -lvxmux -lwdb -lwind -lwindview -lwrload -lxbd -lrqdef -lspl --end-group  ctdt.o\
+	-defsym _VX_DATA_ALIGN=1 -T C:/WindRiver/vxworks-6.9/target/h/tool/gnu/ldscripts/link.RAM -o vxWorks
+true  vxWorks
+C:/WindRiver/vxworks-6.9/host/x86-win32/bin/vxsize pentium -v 10000000 00408000 vxWorks
+vxWorks: 3126638(t) + 96400(d) +  7563408(b) = 10786446
+objcopypentium --extract-symbol vxWorks vxWorks.sym
+true vxWorks.sym
+rm ipcom_ipdomain
+make.exe[1]: Leaving directory `E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/XPedite7501_prj/default'
+make: built targets of E:/DAIRCM/BUILDS/SBC_CSCI/J_MW_Cshell/10_1000F000_6_8_18_AM/workspace_ASP/XPedite7501_prj
+----------
+Copying vxWorks from default to FTP server
+cp default/vxWorks x:
+cp: cannot create regular file `x:': No such file or directory
+C:\WindRiver\utilities-1.0\x86-win32\bin\make.exe: [post_build] Error 1 (ignored)
+cp default/vxWorks.sym x:
+cp: cannot create regular file `x:': No such file or directory
+C:\WindRiver\utilities-1.0\x86-win32\bin\make.exe: [post_build] Error 1 (ignored)
+----------
+Build Finished in Project 'XPedite7501_prj':   2019-02-01 10:57:34   (Elapsed Time: 00:29)
+************************************************************
+C/C++ Index configuration potentially changed : The C/C++ index needs to be rebuilt to reflect potential
+paths and symbols property changes this build run may have caused.
+
+Do you wish to rebuild the index now?
+Status INFO: com.windriver.ide.common.core code=0 C/C++ Index configuration potentially changed : The C/C++ index needs to be rebuilt to reflect potential
+paths and symbols property changes this build run may have caused.
+
+Do you wish to rebuild the index now? null
+[10:57:35.896] Saving Workspace
+Could not save Workspace.
+[10:57:35.911] Finished Workspace Update Application.
+** File Processed T3AppTracker.out **
+** File Processed Reprogrammer.out **
+** File Processed UDFDecoder.out **
+** File Processed 	vxWorks **
+** File Processed 	vxWorks.sym **
+"Please Check the relavent directories for the *.out Files" 
+"**************** Completed Processing  ****************"
+Fri 02/01/2019 10:57:38.84
+Calling Build_Tracker.bat 10_1000F000_6_8_18_AM 1.3.20_Src B
+ 
+Inputs verified: tags 10_1000F000_6_8_18_AM 1.3.20_Src B
+Project BUILD DIR: C:\data\Tracker139\T2\tracker\1.3.20_src
+"Processing Started @"
+Fri 02/01/2019 10:57:38.85
+"**************** Processing  ****************"
+rm -f *~ *.o *.a
+gmake -f C:\\Data\\Tracker139/T2/Make.lib INCLUDE="-IC:\\Data\\Tracker139\\T2\\libT2" DEBUG="" OPTIM="-O2" DEPENDSON="atmosp.c bswap.c cm.c cm_DAIRCM2015.c cm_GWEF.c cm_JUONS.c D2Navigation.c D2Navigation_HH60G.c D2Navigation_MH6.c daudata.c dted.c Exceedance.c Exceedance_ATD.c Exceedance_DAIRCM.c Exceedance_DAIRCM2_100Hz.c Exceedance_DAIRCM2_500Hz.c Exceedance_HFI.c Exceedance_T2.c ExceedanceFile.c ExceedanceFile_ATD.c ExceedanceFile_DAIRCM.c ExceedanceFile_DAIRCM2_100Hz.c ExceedanceFile_DAIRCM2p2_100Hz.c ExceedanceFile_DAIRCM2_500Hz.c ExceedanceFile_DAIRCM400.c ExceedanceFile_DRS.c ExceedanceFile_HFI.c ExceedanceFile_T2.c Exchange.c flare.c flare_v200.c flare_v210.c flare_v220.c flare_v240.c fltp.c frmfile.c frmfile_ATD.c frmfile_DAIRCM.c frmfile_DAIRCM2_100Hz.c frmfile_DAIRCM2_500Hz.c frmfile_D2p2_100Hz.c frmfile_JATAS.c frmfile_T2.c frmfile_DAIRCM2_RAW.c FilterSpatial.c FSFgetopt.c FSFgetopt_long.c GeoDetics.c GeoLocation.c GeoLocation_v200.c GeoLocation_v210.c GeoLocation_v220.c GeoLocation_v240.c GeoLocation_v250.c hfi_trackfile_v100.c HFItrackfile.c ieee_set.c ins.c ins_header_ATD.c ins_header_DAIRCM2p2_100Hz.c ins_header_T2.c LowLatencyFile.c LowLatencyFile_v100.c LowLatencyFile_v110.c LowLatencyFile_v120.c LowLatencyFile_v130.c LowLatencyFile_v140.c LowLatencyFile_v150.c LowLatencyFile_v160.c LWThreat.c LWThreatFile.c mathf.c misc.c ntpTime.c PlatformData.c PointerTracker.c rotmatr.c SemaphoreFunctions.c senbpfile.c sensconf.c sensor_header.c sensor_header_ATD.c sensor_header_DAIRCM.c sensor_header_DAIRCM400.c sensor_header_DAIRCM2_100Hz.c sensor_header_DAIRCM2p2_100Hz.c sensor_header_DAIRCM2p2_HFI.c sensor_header_DAIRCM2p2_LW.c sensor_header_DAIRCM2_500Hz.c sensor_header_JATAS.c sensor_header_T2.c sensor.c sensor_T2.c SharedMemoryFunctions.c SocketFunctions.c sunpos.c T2logger.c threat_id.c tocTime.c trackfile.c trackfile_v120.c trackfile_v150.c trackfile_v160.c trackfile_v170.c trackfile_v200.c trackfile_v210.c trackfile_v220.c trackfile_v230.c trackfile_v240.c trackfile_v250.c trackfile_v270.c tti.c utcTime.c vector.c velocity_model.c velocity_model_m1.c velocity_model_m2.c velocity_model_m3.c velocity_model_m4.c velocity_model_m5.c velocity_model_m6.c velocity_model_m7.c velocity_model_m8.c velocity_model_mpwc.c" LIBRARYNAME=libT2vx.a
+gmake[1]: Entering directory '/cygdrive/c/data/Tracker139/T2/libT2'
+Compiler Flags = -O2 -IC:\Data\Tracker139\T2\libT2   -DCPU=PENTIUM4 -D_WRS_KERNEL -D_VX_TOOL_FAMILY=gnu -D_VX_TOOL=gnu -DHAVE_STRING_H -D__ATDP__ -Wall -fno-strict-aliasing -mhard-float -mtune=core2 -march=core2 -MD -MP -ansi -Bc:\WindRiver\gnu\4.3.3-vxworks-6.9\x86-win32\bin\lib\gcc -Ic:\WindRiver\vxworks-6.9\target\h -Ic:\WindRiver\vxworks-6.9\target\h\wrn\coreip 
+compiling atmosp.c
+compiling bswap.c
+compiling cm.c
+compiling cm_DAIRCM2015.c
+compiling cm_GWEF.c
+compiling cm_JUONS.c
+compiling D2Navigation.c
+compiling D2Navigation_HH60G.c
+compiling D2Navigation_MH6.c
+compiling daudata.c
+compiling dted.c
+compiling Exceedance.c
+compiling Exceedance_ATD.c
+compiling Exceedance_DAIRCM.c
+compiling Exceedance_DAIRCM2_100Hz.c
+compiling Exceedance_DAIRCM2_500Hz.c
+compiling Exceedance_HFI.c
+compiling Exceedance_T2.c
+compiling ExceedanceFile.c
+compiling ExceedanceFile_ATD.c
+compiling ExceedanceFile_DAIRCM.c
+compiling ExceedanceFile_DAIRCM2_100Hz.c
+compiling ExceedanceFile_DAIRCM2p2_100Hz.c
+compiling ExceedanceFile_DAIRCM2_500Hz.c
+compiling ExceedanceFile_DAIRCM400.c
+compiling ExceedanceFile_DRS.c
+compiling ExceedanceFile_HFI.c
+compiling ExceedanceFile_T2.c
+compiling Exchange.c
+compiling flare.c
+compiling flare_v200.c
+compiling flare_v210.c
+compiling flare_v220.c
+compiling flare_v240.c
+compiling fltp.c
+compiling frmfile.c
+compiling frmfile_ATD.c
+compiling frmfile_DAIRCM.c
+compiling frmfile_DAIRCM2_100Hz.c
+compiling frmfile_DAIRCM2_500Hz.c
+compiling frmfile_D2p2_100Hz.c
+compiling frmfile_JATAS.c
+compiling frmfile_T2.c
+compiling frmfile_DAIRCM2_RAW.c
+compiling FilterSpatial.c
+compiling FSFgetopt.c
+compiling FSFgetopt_long.c
+compiling GeoDetics.c
+compiling GeoLocation.c
+compiling GeoLocation_v200.c
+compiling GeoLocation_v210.c
+compiling GeoLocation_v220.c
+compiling GeoLocation_v240.c
+compiling GeoLocation_v250.c
+compiling hfi_trackfile_v100.c
+compiling HFItrackfile.c
+compiling ieee_set.c
+compiling ins.c
+compiling ins_header_ATD.c
+compiling ins_header_DAIRCM2p2_100Hz.c
+compiling ins_header_T2.c
+compiling LowLatencyFile.c
+compiling LowLatencyFile_v100.c
+compiling LowLatencyFile_v110.c
+compiling LowLatencyFile_v120.c
+compiling LowLatencyFile_v130.c
+compiling LowLatencyFile_v140.c
+compiling LowLatencyFile_v150.c
+compiling LowLatencyFile_v160.c
+compiling LWThreat.c
+compiling LWThreatFile.c
+compiling mathf.c
+compiling misc.c
+compiling ntpTime.c
+compiling PlatformData.c
+compiling PointerTracker.c
+compiling rotmatr.c
+compiling SemaphoreFunctions.c
+compiling senbpfile.c
+compiling sensconf.c
+compiling sensor_header.c
+compiling sensor_header_ATD.c
+compiling sensor_header_DAIRCM.c
+compiling sensor_header_DAIRCM400.c
+compiling sensor_header_DAIRCM2_100Hz.c
+compiling sensor_header_DAIRCM2p2_100Hz.c
+compiling sensor_header_DAIRCM2p2_HFI.c
+compiling sensor_header_DAIRCM2p2_LW.c
+compiling sensor_header_DAIRCM2_500Hz.c
+compiling sensor_header_JATAS.c
+compiling sensor_header_T2.c
+compiling sensor.c
+compiling sensor_T2.c
+compiling SharedMemoryFunctions.c
+compiling SocketFunctions.c
+compiling sunpos.c
+compiling T2logger.c
+compiling threat_id.c
+compiling tocTime.c
+compiling trackfile.c
+compiling trackfile_v120.c
+compiling trackfile_v150.c
+compiling trackfile_v160.c
+compiling trackfile_v170.c
+compiling trackfile_v200.c
+compiling trackfile_v210.c
+compiling trackfile_v220.c
+compiling trackfile_v230.c
+compiling trackfile_v240.c
+compiling trackfile_v250.c
+compiling trackfile_v270.c
+compiling tti.c
+compiling utcTime.c
+compiling vector.c
+compiling velocity_model.c
+compiling velocity_model_m1.c
+compiling velocity_model_m2.c
+compiling velocity_model_m3.c
+compiling velocity_model_m4.c
+compiling velocity_model_m5.c
+compiling velocity_model_m6.c
+compiling velocity_model_m7.c
+compiling velocity_model_m8.c
+compiling velocity_model_mpwc.c
+arpentium rcv libT2vx.a atmosp.o bswap.o cm.o cm_DAIRCM2015.o cm_GWEF.o cm_JUONS.o D2Navigation.o D2Navigation_HH60G.o D2Navigation_MH6.o daudata.o dted.o Exceedance.o Exceedance_ATD.o Exceedance_DAIRCM.o Exceedance_DAIRCM2_100Hz.o Exceedance_DAIRCM2_500Hz.o Exceedance_HFI.o Exceedance_T2.o ExceedanceFile.o ExceedanceFile_ATD.o ExceedanceFile_DAIRCM.o ExceedanceFile_DAIRCM2_100Hz.o ExceedanceFile_DAIRCM2p2_100Hz.o ExceedanceFile_DAIRCM2_500Hz.o ExceedanceFile_DAIRCM400.o ExceedanceFile_DRS.o ExceedanceFile_HFI.o ExceedanceFile_T2.o Exchange.o flare.o flare_v200.o flare_v210.o flare_v220.o flare_v240.o fltp.o frmfile.o frmfile_ATD.o frmfile_DAIRCM.o frmfile_DAIRCM2_100Hz.o frmfile_DAIRCM2_500Hz.o frmfile_D2p2_100Hz.o frmfile_JATAS.o frmfile_T2.o frmfile_DAIRCM2_RAW.o FilterSpatial.o FSFgetopt.o FSFgetopt_long.o GeoDetics.o GeoLocation.o GeoLocation_v200.o GeoLocation_v210.o GeoLocation_v220.o GeoLocation_v240.o GeoLocation_v250.o hfi_trackfile_v100.o HFItrackfile.o ieee_set.o ins.o ins_header_ATD.o ins_header_DAIRCM2p2_100Hz.o ins_header_T2.o LowLatencyFile.o LowLatencyFile_v100.o LowLatencyFile_v110.o LowLatencyFile_v120.o LowLatencyFile_v130.o LowLatencyFile_v140.o LowLatencyFile_v150.o LowLatencyFile_v160.o LWThreat.o LWThreatFile.o mathf.o misc.o ntpTime.o PlatformData.o PointerTracker.o rotmatr.o SemaphoreFunctions.o senbpfile.o sensconf.o sensor_header.o sensor_header_ATD.o sensor_header_DAIRCM.o sensor_header_DAIRCM400.o sensor_header_DAIRCM2_100Hz.o sensor_header_DAIRCM2p2_100Hz.o sensor_header_DAIRCM2p2_HFI.o sensor_header_DAIRCM2p2_LW.o sensor_header_DAIRCM2_500Hz.o sensor_header_JATAS.o sensor_header_T2.o sensor.o sensor_T2.o SharedMemoryFunctions.o SocketFunctions.o sunpos.o T2logger.o threat_id.o tocTime.o trackfile.o trackfile_v120.o trackfile_v150.o trackfile_v160.o trackfile_v170.o trackfile_v200.o trackfile_v210.o trackfile_v220.o trackfile_v230.o trackfile_v240.o trackfile_v250.o trackfile_v270.o tti.o utcTime.o vector.o velocity_model.o velocity_model_m1.o velocity_model_m2.o velocity_model_m3.o velocity_model_m4.o velocity_model_m5.o velocity_model_m6.o velocity_model_m7.o velocity_model_m8.o velocity_model_mpwc.o ; \
+rm atmosp.o bswap.o cm.o cm_DAIRCM2015.o cm_GWEF.o cm_JUONS.o D2Navigation.o D2Navigation_HH60G.o D2Navigation_MH6.o daudata.o dted.o Exceedance.o Exceedance_ATD.o Exceedance_DAIRCM.o Exceedance_DAIRCM2_100Hz.o Exceedance_DAIRCM2_500Hz.o Exceedance_HFI.o Exceedance_T2.o ExceedanceFile.o ExceedanceFile_ATD.o ExceedanceFile_DAIRCM.o ExceedanceFile_DAIRCM2_100Hz.o ExceedanceFile_DAIRCM2p2_100Hz.o ExceedanceFile_DAIRCM2_500Hz.o ExceedanceFile_DAIRCM400.o ExceedanceFile_DRS.o ExceedanceFile_HFI.o ExceedanceFile_T2.o Exchange.o flare.o flare_v200.o flare_v210.o flare_v220.o flare_v240.o fltp.o frmfile.o frmfile_ATD.o frmfile_DAIRCM.o frmfile_DAIRCM2_100Hz.o frmfile_DAIRCM2_500Hz.o frmfile_D2p2_100Hz.o frmfile_JATAS.o frmfile_T2.o frmfile_DAIRCM2_RAW.o FilterSpatial.o FSFgetopt.o FSFgetopt_long.o GeoDetics.o GeoLocation.o GeoLocation_v200.o GeoLocation_v210.o GeoLocation_v220.o GeoLocation_v240.o GeoLocation_v250.o hfi_trackfile_v100.o HFItrackfile.o ieee_set.o ins.o ins_header_ATD.o ins_header_DAIRCM2p2_100Hz.o ins_header_T2.o LowLatencyFile.o LowLatencyFile_v100.o LowLatencyFile_v110.o LowLatencyFile_v120.o LowLatencyFile_v130.o LowLatencyFile_v140.o LowLatencyFile_v150.o LowLatencyFile_v160.o LWThreat.o LWThreatFile.o mathf.o misc.o ntpTime.o PlatformData.o PointerTracker.o rotmatr.o SemaphoreFunctions.o senbpfile.o sensconf.o sensor_header.o sensor_header_ATD.o sensor_header_DAIRCM.o sensor_header_DAIRCM400.o sensor_header_DAIRCM2_100Hz.o sensor_header_DAIRCM2p2_100Hz.o sensor_header_DAIRCM2p2_HFI.o sensor_header_DAIRCM2p2_LW.o sensor_header_DAIRCM2_500Hz.o sensor_header_JATAS.o sensor_header_T2.o sensor.o sensor_T2.o SharedMemoryFunctions.o SocketFunctions.o sunpos.o T2logger.o threat_id.o tocTime.o trackfile.o trackfile_v120.o trackfile_v150.o trackfile_v160.o trackfile_v170.o trackfile_v200.o trackfile_v210.o trackfile_v220.o trackfile_v230.o trackfile_v240.o trackfile_v250.o trackfile_v270.o tti.o utcTime.o vector.o velocity_model.o velocity_model_m1.o velocity_model_m2.o velocity_model_m3.o velocity_model_m4.o velocity_model_m5.o velocity_model_m6.o velocity_model_m7.o velocity_model_m8.o velocity_model_mpwc.o ; \
+ranlibpentium  libT2vx.a
+a - atmosp.o
+a - bswap.o
+a - cm.o
+a - cm_DAIRCM2015.o
+a - cm_GWEF.o
+a - cm_JUONS.o
+a - D2Navigation.o
+a - D2Navigation_HH60G.o
+a - D2Navigation_MH6.o
+a - daudata.o
+a - dted.o
+a - Exceedance.o
+a - Exceedance_ATD.o
+a - Exceedance_DAIRCM.o
+a - Exceedance_DAIRCM2_100Hz.o
+a - Exceedance_DAIRCM2_500Hz.o
+a - Exceedance_HFI.o
+a - Exceedance_T2.o
+a - ExceedanceFile.o
+a - ExceedanceFile_ATD.o
+a - ExceedanceFile_DAIRCM.o
+a - ExceedanceFile_DAIRCM2_100Hz.o
+a - ExceedanceFile_DAIRCM2p2_100Hz.o
+a - ExceedanceFile_DAIRCM2_500Hz.o
+a - ExceedanceFile_DAIRCM400.o
+a - ExceedanceFile_DRS.o
+a - ExceedanceFile_HFI.o
+a - ExceedanceFile_T2.o
+a - Exchange.o
+a - flare.o
+a - flare_v200.o
+a - flare_v210.o
+a - flare_v220.o
+a - flare_v240.o
+a - fltp.o
+a - frmfile.o
+a - frmfile_ATD.o
+a - frmfile_DAIRCM.o
+a - frmfile_DAIRCM2_100Hz.o
+a - frmfile_DAIRCM2_500Hz.o
+a - frmfile_D2p2_100Hz.o
+a - frmfile_JATAS.o
+a - frmfile_T2.o
+a - frmfile_DAIRCM2_RAW.o
+a - FilterSpatial.o
+a - FSFgetopt.o
+a - FSFgetopt_long.o
+a - GeoDetics.o
+a - GeoLocation.o
+a - GeoLocation_v200.o
+a - GeoLocation_v210.o
+a - GeoLocation_v220.o
+a - GeoLocation_v240.o
+a - GeoLocation_v250.o
+a - hfi_trackfile_v100.o
+a - HFItrackfile.o
+a - ieee_set.o
+a - ins.o
+a - ins_header_ATD.o
+a - ins_header_DAIRCM2p2_100Hz.o
+a - ins_header_T2.o
+a - LowLatencyFile.o
+a - LowLatencyFile_v100.o
+a - LowLatencyFile_v110.o
+a - LowLatencyFile_v120.o
+a - LowLatencyFile_v130.o
+a - LowLatencyFile_v140.o
+a - LowLatencyFile_v150.o
+a - LowLatencyFile_v160.o
+a - LWThreat.o
+a - LWThreatFile.o
+a - mathf.o
+a - misc.o
+a - ntpTime.o
+a - PlatformData.o
+a - PointerTracker.o
+a - rotmatr.o
+a - SemaphoreFunctions.o
+a - senbpfile.o
+a - sensconf.o
+a - sensor_header.o
+a - sensor_header_ATD.o
+a - sensor_header_DAIRCM.o
+a - sensor_header_DAIRCM400.o
+a - sensor_header_DAIRCM2_100Hz.o
+a - sensor_header_DAIRCM2p2_100Hz.o
+a - sensor_header_DAIRCM2p2_HFI.o
+a - sensor_header_DAIRCM2p2_LW.o
+a - sensor_header_DAIRCM2_500Hz.o
+a - sensor_header_JATAS.o
+a - sensor_header_T2.o
+a - sensor.o
+a - sensor_T2.o
+a - SharedMemoryFunctions.o
+a - SocketFunctions.o
+a - sunpos.o
+a - T2logger.o
+a - threat_id.o
+a - tocTime.o
+a - trackfile.o
+a - trackfile_v120.o
+a - trackfile_v150.o
+a - trackfile_v160.o
+a - trackfile_v170.o
+a - trackfile_v200.o
+a - trackfile_v210.o
+a - trackfile_v220.o
+a - trackfile_v230.o
+a - trackfile_v240.o
+a - trackfile_v250.o
+a - trackfile_v270.o
+a - tti.o
+a - utcTime.o
+a - vector.o
+a - velocity_model.o
+a - velocity_model_m1.o
+a - velocity_model_m2.o
+a - velocity_model_m3.o
+a - velocity_model_m4.o
+a - velocity_model_m5.o
+a - velocity_model_m6.o
+a - velocity_model_m7.o
+a - velocity_model_m8.o
+a - velocity_model_mpwc.o
+gmake[1]: Leaving directory '/cygdrive/c/data/Tracker139/T2/libT2'
+SuccessFull Build - libT2
+( rm -f *~ ; cd ../1.3.20_Gnat ; gmake clean VERSIONID=1.3.20 )
+gmake[1]: Entering directory '/cygdrive/c/data/Tracker139/T2/tracker/1.3.20_Gnat'
+rm -f *.o *.ali b_*.c b~*.ad[bs] tracker *~
+gmake[1]: Leaving directory '/cygdrive/c/data/Tracker139/T2/tracker/1.3.20_Gnat'
+( cd ../1.3.20_Gnat ; gmake vxworks VERSIONID=1.3.20 ; mv tracker.out ../../bin/tracker_1.3.20.vx )
+gmake[1]: Entering directory '/cygdrive/c/data/Tracker139/T2/tracker/1.3.20_Gnat'
+ccpentium.exe  -c -O2 -nostdlib -fno-builtin -fno-defer-pop -mno-sse -mno-sse2 -IC:\\Data\\Tracker139\\T2\\libT2  -IC:\\Data\\Tracker139\\T2\\CP\\include -Ic:\\Data\\Tracker139\\workspace3\\RCBasic\\source -Ic:\\Data\\Tracker139\\workspace3\\T3FileIO\\source -Ic:\\Data\\Tracker139\\workspace3\\T3AppTracker\\source     -DCPU=PENTIUM4 -D_WRS_KERNEL -D_VX_TOOL_FAMILY=gnu -D_VX_TOOL=gnu -DHAVE_STRING_H -D__ATDP__ -Wall -fno-strict-aliasing -mhard-float -mtune=core2 -march=core2 -MD -MP -ansi -Bc:\\WindRiver\\gnu\\4.3.3-vxworks-6.9\\x86-win32\\bin\\lib\\gcc -Ic:\\WindRiver\\vxworks-6.9\\target\\h -Ic:\\WindRiver\\vxworks-6.9\\target\\h\\wrn\\coreip  ../1.3.20_src/ReadTrackerParametersFile.c
+ccpentium.exe  -c -O2 -nostdlib -fno-builtin -fno-defer-pop -mno-sse -mno-sse2 -IC:\\Data\\Tracker139\\T2\\libT2  -IC:\\Data\\Tracker139\\T2\\CP\\include -Ic:\\Data\\Tracker139\\workspace3\\RCBasic\\source -Ic:\\Data\\Tracker139\\workspace3\\T3FileIO\\source -Ic:\\Data\\Tracker139\\workspace3\\T3AppTracker\\source     -DCPU=PENTIUM4 -D_WRS_KERNEL -D_VX_TOOL_FAMILY=gnu -D_VX_TOOL=gnu -DHAVE_STRING_H -D__ATDP__ -Wall -fno-strict-aliasing -mhard-float -mtune=core2 -march=core2 -MD -MP -ansi -Bc:\\WindRiver\\gnu\\4.3.3-vxworks-6.9\\x86-win32\\bin\\lib\\gcc -Ic:\\WindRiver\\vxworks-6.9\\target\\h -Ic:\\WindRiver\\vxworks-6.9\\target\\h\\wrn\\coreip  ../1.3.20_src/TrackerUtilities.c
+ccpentium.exe  -c -O2 -nostdlib -fno-builtin -fno-defer-pop -mno-sse -mno-sse2 -IC:\\Data\\Tracker139\\T2\\libT2  -IC:\\Data\\Tracker139\\T2\\CP\\include -Ic:\\Data\\Tracker139\\workspace3\\RCBasic\\source -Ic:\\Data\\Tracker139\\workspace3\\T3FileIO\\source -Ic:\\Data\\Tracker139\\workspace3\\T3AppTracker\\source     -DCPU=PENTIUM4 -D_WRS_KERNEL -D_VX_TOOL_FAMILY=gnu -D_VX_TOOL=gnu -DHAVE_STRING_H -D__ATDP__ -Wall -fno-strict-aliasing -mhard-float -mtune=core2 -march=core2 -MD -MP -ansi -Bc:\\WindRiver\\gnu\\4.3.3-vxworks-6.9\\x86-win32\\bin\\lib\\gcc -Ic:\\WindRiver\\vxworks-6.9\\target\\h -Ic:\\WindRiver\\vxworks-6.9\\target\\h\\wrn\\coreip  ../1.3.20_src/ReadDiscriminatorSettings.c
+ccpentium.exe  -c -O2 -nostdlib -fno-builtin -fno-defer-pop -mno-sse -mno-sse2 -IC:\\Data\\Tracker139\\T2\\libT2  -IC:\\Data\\Tracker139\\T2\\CP\\include -Ic:\\Data\\Tracker139\\workspace3\\RCBasic\\source -Ic:\\Data\\Tracker139\\workspace3\\T3FileIO\\source -Ic:\\Data\\Tracker139\\workspace3\\T3AppTracker\\source     -DCPU=PENTIUM4 -D_WRS_KERNEL -D_VX_TOOL_FAMILY=gnu -D_VX_TOOL=gnu -DHAVE_STRING_H -D__ATDP__ -Wall -fno-strict-aliasing -mhard-float -mtune=core2 -march=core2 -MD -MP -ansi -Bc:\\WindRiver\\gnu\\4.3.3-vxworks-6.9\\x86-win32\\bin\\lib\\gcc -Ic:\\WindRiver\\vxworks-6.9\\target\\h -Ic:\\WindRiver\\vxworks-6.9\\target\\h\\wrn\\coreip  ../1.3.20_src/ExpressFabric.c
+c++pentium.exe  -O2 -nostdlib -fno-builtin -fno-defer-pop -mno-sse -mno-sse2 -IC:\\Data\\Tracker139\\T2\\libT2  -IC:\\Data\\Tracker139\\T2\\CP\\include -Ic:\\Data\\Tracker139\\workspace3\\RCBasic\\source -Ic:\\Data\\Tracker139\\workspace3\\T3FileIO\\source -Ic:\\Data\\Tracker139\\workspace3\\T3AppTracker\\source     -DCPU=PENTIUM4 -D_WRS_KERNEL -D_VX_TOOL_FAMILY=gnu -D_VX_TOOL=gnu -DHAVE_STRING_H -D__ATDP__ -Wall -fno-strict-aliasing -mhard-float -mtune=core2 -march=core2 -MD -MP -ansi -Bc:\\WindRiver\\gnu\\4.3.3-vxworks-6.9\\x86-win32\\bin\\lib\\gcc -Ic:\\WindRiver\\vxworks-6.9\\target\\h -Ic:\\WindRiver\\vxworks-6.9\\target\\h\\wrn\\coreip    -c -o rate_gyros.o ../1.3.20_src/rate_gyros.cpp
+c++pentium.exe  -O2 -nostdlib -fno-builtin -fno-defer-pop -mno-sse -mno-sse2 -IC:\\Data\\Tracker139\\T2\\libT2  -IC:\\Data\\Tracker139\\T2\\CP\\include -Ic:\\Data\\Tracker139\\workspace3\\RCBasic\\source -Ic:\\Data\\Tracker139\\workspace3\\T3FileIO\\source -Ic:\\Data\\Tracker139\\workspace3\\T3AppTracker\\source     -DCPU=PENTIUM4 -D_WRS_KERNEL -D_VX_TOOL_FAMILY=gnu -D_VX_TOOL=gnu -DHAVE_STRING_H -D__ATDP__ -Wall -fno-strict-aliasing -mhard-float -mtune=core2 -march=core2 -MD -MP -ansi -Bc:\\WindRiver\\gnu\\4.3.3-vxworks-6.9\\x86-win32\\bin\\lib\\gcc -Ic:\\WindRiver\\vxworks-6.9\\target\\h -Ic:\\WindRiver\\vxworks-6.9\\target\\h\\wrn\\coreip    -c -o mfDispenseAlert.o ../1.3.20_src/mfDispenseAlert.cpp
+i586-wrs-vxworks-gnatmake --RTS=kernel-smp  -aIC:\\Data\\Tracker139\\T2\\tracker\\1.3.20_src tracker -cargs -gnatpn -O2  -mtune=core2 --RTS=kernel-smp \
+-largs --RTS=kernel-smp ReadTrackerParametersFile.o TrackerUtilities.o ReadDiscriminatorSettings.o ExpressFabric.o rate_gyros.o mfDispenseAlert.o -LC:\\Data\\Tracker139\\T2\\libT2 -lT2vx  
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\tracker.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\command_line_option.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_main.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\imports.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\angular_transformation.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\atmosphere.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\bad_pixel.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-main.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-track_file.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\dted.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\exceedance.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\exceedance-real_time.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\exceedance-super_file.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\exceedance_file.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\exceedance_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\exports.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\histogram.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\histogram-exceedance.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\histogram-timing.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\histogram-track.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\ins_header.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\ins_header_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\kalman_filter.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\local_storage_pool.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\low_latency.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\low_latency-file.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\low_latency-parallax.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\low_latency_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\math_functions.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\math_functions-imports.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\message_log.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\message_log_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\new_track_processing.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\parameters.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\platform_data.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\report_table.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\rotation_matrix.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\sensor.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\sensor_header.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\sensor_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\switch_mapping.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\timing_lsq_fit.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_bad_pixel.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_def.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_def-pool.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_gate.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_gate-overlap.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_line_table.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_overlap.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_symbology.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_task_message.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_updating.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\atmosphere_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\platform_data_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_task_message_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-pointer_tracker_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-tti_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\mask_boundary_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\matched_filter_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-alert_management.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-amplitude_growth.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-amplitude_smoothing.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-bad_pixel.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-geo_location.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-ignition.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-matched_filter.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-pointer_tracker.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-pointer_tracker-threat_report.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-spectral_ratio.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-threat_classification.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-threat_identification.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-track_deleted_database.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-tti.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-utilities.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-velocity.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_file_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\ign_signature_template.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\sensor_header_types.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\type_convertion_utilities.ads
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\track_utilities.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\mask_boundary.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\sensor-specification.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-ejector.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-matched_filter-templates.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-pointer_tracker-global.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-pointer_tracker-multiple_jam_heads.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-pointer_tracker-single_handoff.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-pointer_tracker-stores_management.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-threat_classification-amplitude_growth.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-threat_classification-flare.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-threat_classification-global.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-threat_classification-ignition.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-threat_classification-pre_slew.adb
+i586-wrs-vxworks-gcc -c -I.\ --RTS=kernel-smp -IC:\Data\Tracker139\T2\tracker\1.3.20_src -gnatpn -O2 -mtune=core2 --RTS=kernel-smp -I- C:\Data\Tracker139\T2\tracker\1.3.20_src\discrimination-pointer_tracker-utilities.adb
+i586-wrs-vxworks-gnatbind --RTS=kernel-smp -aIC:\Data\Tracker139\T2\tracker\1.3.20_src -x tracker.ali
+i586-wrs-vxworks-gnatlink tracker.ali --RTS=kernel-smp ReadTrackerParametersFile.o TrackerUtilities.o ReadDiscriminatorSettings.o ExpressFabric.o rate_gyros.o mfDispenseAlert.o -LC:\Data\Tracker139\T2\libT2 -lT2vx
+gmake[1]: Leaving directory '/cygdrive/c/data/Tracker139/T2/tracker/1.3.20_Gnat'
+SuccessFull Build - Tracker.vx
+Please verify and Validate Tracker.vx in the C:\data\Tracker139\T2\bin)
+"Processing Complete @"
+Fri 02/01/2019 10:59:58.87

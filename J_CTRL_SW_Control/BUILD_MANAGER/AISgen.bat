@@ -1,0 +1,2 @@
+::"c:\ti\AISgen for D800K008\AISgen_d800k008.exe" -cfg="c:\Workdir\Vision\Software\ST4\common\release\ST4_ais_config.cfg"
+"E:\Apps\AISgen for D800K008\AISgen_d800k008.exe" -cfg="E:\DAIRCM\BUILDS\Controls_CSCI\J_CTRL_SW\Build_09E7\AISgen_Tool\1_0_Release_Config_mod.cfg"

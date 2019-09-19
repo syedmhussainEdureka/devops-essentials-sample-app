@@ -1,0 +1,58 @@
+IF EXIST INTEGRATION (
+rd /q /s INTEGRATION
+) ELSE (
+echo "no dir"
+)
+
+rmdir /S /Q C:\Temp\cov-build
+mkdir C:\Temp\cov-build
+echo %PATH%
+echo %JOB_NAME%
+svn export "https://davms120131.core.drs.master/svn/J_CTRL_SW/branches/INTEGRATION/BUILD_MANAGER/" INTEGRATION
+
+"C:\ti\ccsv5\eclipse\eclipsec" -noSplash -data C:\jenkins\workspace\%JOB_NAME%\ -application com.ti.ccstudio.apps.projectImport -ccs.location INTEGRATION/ARM_ONLY/omap_arm
+IF /I "%ERRORLEVEL%" EQU "1" EXIT /B
+
+"C:\ti\ccsv5\eclipse\eclipsec" -noSplash -data C:\jenkins\workspace\%JOB_NAME%\ -application com.ti.ccstudio.apps.projectBuild -ccs.projects omap_arm -ccs.clean -ccs.configuration Debug -ccs.autoImport
+IF /I "%ERRORLEVEL%" EQU "1" EXIT /B 1
+
+REM "C:\ti\ccsv5\eclipse\eclipsec" -noSplash -data C:\jenkins\workspace\%JOB_NAME%\ -application com.ti.ccstudio.apps.projectBuild -ccs.projects omap_arm -ccs.clean -ccs.configuration Release -ccs.autoImport
+REM IF /I "%ERRORLEVEL%" EQU "1" EXIT /B 1
+
+REM C:\ti\ccsv5\eclipse\eclipsec -noSplash -data C:\jenkins\workspace\%JOB_NAME%\ -application com.ti.ccstudio.apps.projectBuild -ccs.projects omap_arm -ccs.buildType full -ccs.configuration Release -ccs.autoImport
+REM IF /I "%ERRORLEVEL%" EQU "1" EXIT /B 1
+
+"C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-build.exe" --no-log-server --dir "C:\Temp\cov-build" C:\ti\ccsv5\eclipse\eclipsec -noSplash -data C:\jenkins\workspace\%JOB_NAME%\ -application com.ti.ccstudio.apps.projectBuild -ccs.projects omap_arm -ccs.buildType full -ccs.configuration Debug -ccs.autoImport
+IF /I "%ERRORLEVEL%" EQU "1" EXIT /B 1
+
+"C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-analyze.exe" --dir C:\temp\cov-build --all --enable-fnptr --enable-callgraph-metrics --strip-path C:\jenkins\workspace\%JOB_NAME%\INTEGRATION\ARM_ONLY --aggressiveness-level medium 
+IF /I "%ERRORLEVEL%" EQU "1" EXIT /B 1
+
+"C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-commit-defects.exe" --dir C:\temp\cov-build --host coverity.core.drs.master --port 8009 --user coverity --password system --stream CI-INTEGRATION
+IF /I "%ERRORLEVEL%" EQU "1" EXIT /B 1
+
+copy C:\jenkins\workspace\%JOB_NAME%\INTEGRATION\ARM_ONLY\omap_arm\Debug\omap_arm.out C:\jenkins\workspace\%JOB_NAME%\debug-omap_arm.out
+IF /I "%ERRORLEVEL%" EQU "1" EXIT /B 1
+copy C:\jenkins\workspace\%JOB_NAME%\INTEGRATION\ARM_ONLY\omap_arm\Debug\omap_arm.map C:\jenkins\workspace\%JOB_NAME%\debug-omap_arm.map
+IF /I "%ERRORLEVEL%" EQU "1" EXIT /B 1
+REM copy C:\jenkins\workspace\%JOB_NAME%\INTEGRATION\ARM_ONLY\omap_arm\Release\omap_arm.out C:\jenkins\workspace\%JOB_NAME%\release-omap_arm.out
+REM IF /I "%ERRORLEVEL%" EQU "1" EXIT /B 1
+REM copy C:\jenkins\workspace\%JOB_NAME%\INTEGRATION\ARM_ONLY\omap_arm\Release\omap_arm.map C:\jenkins\workspace\%JOB_NAME%\release-omap_arm.map
+REM IF /I "%ERRORLEVEL%" EQU "1" EXIT /B 1
+
+cd "INTEGRATION\ARM_ONLY\omap_arm\module\"
+for /r %%i in (*.c) do @echo %%i>> ..\filelist.txt
+cd ..\
+for %%i in (*.c) do @echo C:\jenkins\workspace\%JOB_NAME%\INTEGRATION\ARM_ONLY\omap_arm\%i>> filelist.txt
+
+REM "C:\jenkins\UCC.exe" -i1 filelist.txt -ascii -outdir UCC_output
+C:\Temp\UCC.exe -i1 filelist.txt -outdir UCC_output
+C:\Temp\UCC.exe -i1 filelist.txt -ascii -outdir UCC_output
+
+"C:\Program Files\7-Zip\7z.exe" a UCC.7z UCC_output
+
+copy UCC.7z C:\jenkins\workspace\%JOB_NAME%\UCC.7z
+
+cd ..\..\..\
+
+

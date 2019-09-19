@@ -1,0 +1,24 @@
+node {
+  
+   stage('Preparation') { // 
+      // Get code from SVN repository
+
+      //git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+      
+   }
+   stage('SCM') {
+     // Get code from SVN repository
+   }
+   stage('Build') {
+      // Run the build
+      
+   }
+   stage('Build') {
+      // Run the build
+      
+   }
+   stage('Results') {
+      //junit '**/target/surefire-reports/TEST-*.xml'
+      //archive 'target/*.jar'
+   }
+}
