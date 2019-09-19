@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Wed May 08 13:26:54 2019
+# Process ID: 5428
+# Current directory: C:/DAIRCM/BUILDS/J0015_Sensor_FPGA/BUILD_MANAGER
+# Command line: vivado.exe -log d2s_top.vdi -applog -product Vivado -messageDb Vivado.pb -mode batch -source C:\DAIRCM\BUILDS\J0015_Sensor_FPGA\2131\d2s_top\Batch_mode.tcl -notrace
+# Log file: C:/DAIRCM/BUILDS/J0015_Sensor_FPGA/BUILD_MANAGER/d2s_top.vdi
+# Journal file: C:/DAIRCM/BUILDS/J0015_Sensor_FPGA/BUILD_MANAGER\vivado.jou
+#-----------------------------------------------------------
+source {C:\DAIRCM\BUILDS\J0015_Sensor_FPGA\2131\d2s_top\Batch_mode.tcl} -notrace
+Launching Build for 1400 J0015_Sensor_FPGA - d2s_top
+Opening Project
+ERROR: [Coretcl 2-27] Can't find specified project.
+INFO: [Common 17-206] Exiting Vivado at Wed May 08 13:27:00 2019...
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Wed May 08 16:58:18 2019
+# Process ID: 7336
+# Current directory: C:/DAIRCM/BUILDS/J0015_Sensor_FPGA/BUILD_MANAGER
+# Command line: vivado.exe -log d2s_top.vdi -applog -product Vivado -messageDb Vivado.pb -mode batch -source C:\DAIRCM\BUILDS\J0015_Sensor_FPGA\2131\d2s_top\Batch_mode.tcl -notrace
+# Log file: C:/DAIRCM/BUILDS/J0015_Sensor_FPGA/BUILD_MANAGER/d2s_top.vdi
+# Journal file: C:/DAIRCM/BUILDS/J0015_Sensor_FPGA/BUILD_MANAGER\vivado.jou
+#-----------------------------------------------------------
+source {C:\DAIRCM\BUILDS\J0015_Sensor_FPGA\2131\d2s_top\Batch_mode.tcl} -notrace
+Launching Build for 1400 J0015_Sensor_FPGA - d2s_top
+Opening Project
+ERROR: [Coretcl 2-27] Can't find specified project.
+INFO: [Common 17-206] Exiting Vivado at Wed May 08 16:58:25 2019...
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Wed May 08 17:04:37 2019
+# Process ID: 20664
+# Current directory: C:/DAIRCM/BUILDS/J0015_Sensor_FPGA/BUILD_MANAGER
+# Command line: vivado.exe -log d2s_top.vdi -applog -product Vivado -messageDb Vivado.pb -mode batch -source C:\DAIRCM\BUILDS\J0015_Sensor_FPGA\2131\d2s_top\Batch_mode.tcl -notrace
+# Log file: C:/DAIRCM/BUILDS/J0015_Sensor_FPGA/BUILD_MANAGER/d2s_top.vdi
+# Journal file: C:/DAIRCM/BUILDS/J0015_Sensor_FPGA/BUILD_MANAGER\vivado.jou
+#-----------------------------------------------------------
+source {C:\DAIRCM\BUILDS\J0015_Sensor_FPGA\2131\d2s_top\Batch_mode.tcl} -notrace
+Launching Build for 1400 J0015_Sensor_FPGA - d2s_top
+Opening Project
+ERROR: [Coretcl 2-27] Can't find specified project.
+INFO: [Common 17-206] Exiting Vivado at Wed May 08 17:04:44 2019...
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Wed May 08 17:06:16 2019
+# Process ID: 12764
+# Current directory: C:/DAIRCM/BUILDS/J0015_Sensor_FPGA/BUILD_MANAGER
+# Command line: vivado.exe -log d2s_top.vdi -applog -product Vivado -messageDb Vivado.pb -mode batch -source C:\DAIRCM\BUILDS\J0015_Sensor_FPGA\2131\d2s_top\Batch_mode.tcl -notrace
+# Log file: C:/DAIRCM/BUILDS/J0015_Sensor_FPGA/BUILD_MANAGER/d2s_top.vdi
+# Journal file: C:/DAIRCM/BUILDS/J0015_Sensor_FPGA/BUILD_MANAGER\vivado.jou
+#-----------------------------------------------------------
+source {C:\DAIRCM\BUILDS\J0015_Sensor_FPGA\2131\d2s_top\Batch_mode.tcl} -notrace
+Launching Build for 1400 J0015_Sensor_FPGA - d2s_top
+Opening Project
+ERROR: [Coretcl 2-27] Can't find specified project.
+INFO: [Common 17-206] Exiting Vivado at Wed May 08 17:06:23 2019...

@@ -1,0 +1,19 @@
+[OFG_CFG]
+FT|1 
+OFPV|2127$BldNum
+DESC|2127 02/27/19 PM TDF
+UDF|
+0|https://davms120131.core.drs.master/svn/System_Binaries/"CP FPGA"/2127/asp_top_rev_2127_0000.mcs@1982
+1|https://davms120131.core.drs.master/svn/System_Binaries/Control/2127/omap_arm_21272001.bin@1979
+2|https://davms120131.core.drs.master/svn/System_Binaries/Laser/2127/E06-00043-05.dld@1338
+3|https://davms120131.core.drs.master/svn/System_Binaries/"CP CPLD"/2127/v0016_asp_cpld.cpd@1838
+4|https://davms120131.core.drs.master/svn/System_Binaries/Sensor_OMAP_ARM_Laser_Warning/2127/v1438_combined_ARM_DSP_build_bare_metal_OMAP.bin@1975
+5|https://davms120131.core.drs.master/svn/System_Binaries/"Sensor CPLD"/2127/cpld_v05_081017.cpd@184
+6|https://davms120131.core.drs.master/svn/System_Binaries/"Sensor FPGA"/2127/V0413/d2s_top_rev_0413.bin@1925
+7|https://davms120131.core.drs.master/svn/System_Binaries/SBC/2127/ahci00_1/Tracker/T3AppTracker.out@1972
+8|https://davms120131.core.drs.master/svn/System_Binaries/SBC/2127/ahci00_1/Tracker/Tracker.vx@1897
+9|https://davms120131.core.drs.master/svn/System_Binaries/SBC/2127/ahci00_1/Tracker/Reprogrammer.out@1972
+10|https://davms120131.core.drs.master/svn/System_Binaries/SBC/2127/ahci00_1/Udf/UDFDecoder.out@1972
+11|https://davms120131.core.drs.master/svn/System_Binaries/SBC/2127/ahci01_1/vxWorks.sym@1924
+12|https://davms120131.core.drs.master/svn/System_Binaries/SBC/2127/ahci01_1/vxWorks.sym@1924
+13|https://davms120131.core.drs.master/svn/System_Binaries/SBC/2127/ahci00_1/Tracker/HFITracker.vx@1976

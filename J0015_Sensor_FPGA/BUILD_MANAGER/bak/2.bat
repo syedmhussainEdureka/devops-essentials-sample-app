@@ -1,0 +1,1 @@
+vivado -log C:\DAIRCM\BUILDS\J0015_Sensor_FPGA\\2125\d2s_top\d2s_top.runs\impl_1\d2s_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode tcl -source C:\DAIRCM\BUILDS\J0015_Sensor_FPGA\\2125\d2s_top\d2s_top.runs\impl_1\Batch_mode.tcl -notrace

@@ -1,0 +1,19 @@
+[OFG_CFG]
+FT|1 
+OFPV|2127F000
+DESC|2127 02/27/19 PM TDF
+UDF|
+0|asp_top_rev_2127_0000.mcs
+1|omap_arm_21272001.bin
+2|E06-00043-05.dld
+3|v0016_asp_cpld.cpd
+4|v1438_combined_ARM_DSP_build_bare_metal_OMAP.bin
+5|cpld_v05_081017.cpd
+6|d2s_top_rev_0413.bin     
+7|T3AppTracker.out
+8|Tracker.vx
+9|Reprogrammer.out
+10|UDFDecoder.out
+11|vxWorks
+12|vxWorks.sym
+13|HFITracker.vx

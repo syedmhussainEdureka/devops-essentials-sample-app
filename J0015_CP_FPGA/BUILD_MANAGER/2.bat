@@ -1,0 +1,1 @@
+vivado -log C:\DAIRCM\BUILDS\J0015_CP_FPGA\2129\asp_fpga\asp_fpga.runs\impl_1\asp_fpga.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode tcl -source C:\DAIRCM\BUILDS\J0015_CP_FPGA\2129\asp_fpga\asp_fpga.runs\impl_1\Batch_mode.tcl -notrace>FPGA.txt 2>&1

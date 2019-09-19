@@ -1,0 +1,1 @@
+rm *.mcs *.bin *.out *.cpd *.dld *.vx null_2 *.sym vxworks *.ofp Binary_versions.txt *.rrt

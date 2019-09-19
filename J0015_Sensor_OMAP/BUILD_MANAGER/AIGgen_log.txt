@@ -1,0 +1,25 @@
+***Loaded configuration from file C:\DAIRCM\BUILDS\J0015_Sensor_OMAP\Cur\v1443_ARM_laser_warning\Release_Config.cfg
+Begining the AIS file generation.
+AIS file being generated for bootmode: NONE.
+Parsing the input object file, C:\DAIRCM\BUILDS\J0015_Sensor_OMAP\Cur\v1443_ARM_laser_warning\ARM\Debug\arm.out.
+Parsing the input object file, C:\DAIRCM\BUILDS\J0015_Sensor_OMAP\Cur\v1443_ARM_laser_warning\DSP-v500\Debug\DSP-v500.out.
+AIS file generation was successful.
+***Wrote 330488 bytes to file C:\DAIRCM\BUILDS\J0015_Sensor_OMAP\Cur\v1443_ARM_laser_warning\Release_Debug.bin
+Begining the AIS file generation.
+AIS file being generated for bootmode: NONE.
+Parsing the input object file, C:\DAIRCM\BUILDS\J0015_Sensor_OMAP\Cur\v1443_ARM_laser_warning\ARM\Debug\arm.out.
+Parsing the input object file, C:\DAIRCM\BUILDS\J0015_Sensor_OMAP\Cur\v1443_ARM_laser_warning\DSP-v500\Debug\DSP-v500.out.
+AIS file generation was successful.
+***Wrote 330488 bytes to file C:\DAIRCM\BUILDS\J0015_Sensor_OMAP\Cur\v1443_ARM_laser_warning\Release_Debug.bin
+Begining the AIS file generation.
+AIS file being generated for bootmode: NONE.
+Parsing the input object file, C:\DAIRCM\BUILDS\J0015_Sensor_OMAP\Cur\v1443_ARM_laser_warning\ARM\Debug\arm.out.
+Parsing the input object file, C:\DAIRCM\BUILDS\J0015_Sensor_OMAP\Cur\v1443_ARM_laser_warning\DSP-v500\Debug\DSP-v500.out.
+AIS file generation was successful.
+***Wrote 330488 bytes to file C:\DAIRCM\BUILDS\J0015_Sensor_OMAP\Cur\v1443_ARM_laser_warning\Release_Debug.bin
+Begining the AIS file generation.
+AIS file being generated for bootmode: NONE.
+Parsing the input object file, C:\DAIRCM\BUILDS\J0015_Sensor_OMAP\Cur\v1443_ARM_laser_warning\ARM\Debug\arm.out.
+Parsing the input object file, C:\DAIRCM\BUILDS\J0015_Sensor_OMAP\Cur\v1443_ARM_laser_warning\DSP-v500\Debug\DSP-v500.out.
+AIS file generation was successful.
+***Wrote 330488 bytes to file C:\DAIRCM\BUILDS\J0015_Sensor_OMAP\Cur\v1443_ARM_laser_warning\Release_Debug.bin

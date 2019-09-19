@@ -1,0 +1,1 @@
+set PATH=%PATH%;C:\Apps\Vivado\2016.4\tps\win64\git-1.9.5\bin; C:\Apps\Vivado\2016.4\bin;C:\Apps\Vivado\2016.4\lib\win64.o;C:\usr\bin;C:\bin
